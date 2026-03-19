@@ -10,30 +10,24 @@ Welcome to my Capture The Flag (CTF) writeups repository! This repository contai
 Writeups are organized chronologically by year, then by event, and finally by category. 
 
 ```text
-.
-├── 2024
-│   └── TrojanCTF
-│       ├── Ai Challenges (100+100+200+300).md
-│       ├── Crypto
-│       │   ├── Caesars Salad (100).md
-│       │   ├── Cryptographic Engineering (300).md
-│       │   ├── Hellman key exhange (100 + 100).md
-│       │   ├── Sizzling poetry (100).md
-│       │   └── Zaxtor (500).md
-│       ├── Forensics
-│       │   ├── Don't open me (300).md
-│       │   ├── Doof (100).md
-│       │   ├── Karakuri (100).md
-│       │   ├── Karakuri.md
-│       │   ├── Monkeys (100).md
-│       │   ├── Realm of Legends (100).md
-│       │   ├── Spectrum (100).md
-│       │   └── The pink dog (100).md
-│       └── Misc
-│           ├── BullyBot9000 (300).md
-│           └── Tourism with Travis (100).md
-├── LICENSE
-└── README.md
+2024
+└── TrojanCTF
+    ├── Ai Challenges (100+100+200+300).md
+    ├── Crypto
+    │   ├── Caesars Salad (100).md
+    │   ├── Cryptographic Engineering (300).md
+    │   ├── Hellman key exhange (100 + 100).md
+    │   ├── Sizzling poetry (100).md
+    │   └── Zaxtor (500).md
+    ├── Forensics
+    │   ├── Karakuri (100).md
+    │   ├── Monkeys (100).md
+    │   ├── Realm of Legends (100).md
+    │   ├── Spectrum (100).md
+    │   └── The pink dog (100).md
+    └── Misc
+        ├── BullyBot9000 (300).md
+        └── Tourism with Travis (100).md
 ```
 ## 🏆 Recent Competitions
 | Event            | Date       | Rank    | Category Focus |

@@ -1,5 +1,6 @@
 ---
-category: crypto
+title: Cryptographic Engineering
+parent: crypto
 description: Reverse engineer an encryption algorithm
 points: "300"
 ---

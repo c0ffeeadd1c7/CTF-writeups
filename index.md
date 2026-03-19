@@ -1,6 +1,5 @@
 ---
-layout: default
-title: HomeCTF Portfolio
+title: CTF Portfolio
 ---
 # 🚩 CTF Writeups
 

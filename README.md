@@ -43,4 +43,4 @@ Writeups are organized chronologically by year, then by event, and finally by ca
 
 ## 🚀 Live Site
 You can read these writeups in a more easily navigable format on my dedicated site:
-👉 [Insert your GitHub Pages URL Here]
+👉 [https://c0ffeeadd1c7.github.io/CTF-writeups/](https://c0ffeeadd1c7.github.io/CTF-writeups/)

@@ -4,8 +4,9 @@ description: Hellman key exchange with small primes
 points: "100"
 ---
 Two images were given:
-![[GiosPublic.png]]
-![[TonysPublic.png]]
+
+![GiosPublic.png]({{ site.baseurl }}/assets/GiosPublic.png)
+![TonysPublic.png]({{ site.baseurl }}/assets/TonysPublic.png)
 
 
 Source wikipedia Diffie Hellman key exchange

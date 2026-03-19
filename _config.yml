@@ -1,4 +1,5 @@
 title: "My CTF Writeups"
+baseurl: "/CTF-writeups"
 description: "Solutions, scripts, and notes from cybersecurity competitions."
 remote_theme: just-the-docs/just-the-docs
 color_scheme: dark

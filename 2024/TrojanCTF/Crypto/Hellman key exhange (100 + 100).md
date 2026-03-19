@@ -6,12 +6,12 @@ points: "100"
 ---
 Two images were given:
 
-![GiosPublic.png](/assets/GiosPublic.png)
-![TonysPublic.png](/assets/TonysPublic.png)
+![GiosPublic.png]({{ site.baseurl  }}/assets/GiosPublic.png)
+![TonysPublic.png]({{ site.baseurl  }}/assets/TonysPublic.png)
 
 
 Source wikipedia Diffie Hellman key exchange
-![Pasted image 20240529010102.png](/assets/Pasted%20image%2020240529010102.png)
+![Pasted image 20240529010102.png]({{ site.baseurl  }}/assets/Pasted%20image%2020240529010102.png)
 
 We have:  
 $$

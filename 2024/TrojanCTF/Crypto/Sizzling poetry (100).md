@@ -14,7 +14,7 @@ Best, Poet McGee
 
 Flag Format: Trojan{Secret Message}
 ```
-![Pasted image 20240529013031.png](/assets/Pasted%20image%2020240529013031.png)  
+![Pasted image 20240529013031.png]({{ site.baseurl  }}/assets/Pasted%20image%2020240529013031.png)  
 The poem is a hint to Bacon, and there also exists a Bacon(ian) chiper. HMMM.  
 In the [Bacon chiper](https://en.wikipedia.org/wiki/Bacon's_cipher?oldformat=true|) the message is binary encoded in the typeface of the letters and after considering every non bold letter as a-s and every bold letter as b-s we get:  
 ```txt

@@ -16,9 +16,9 @@ In cryptography, **padding** is any of a number of distinct practices which a
   
 As I understand it to apply padding you have to extend the data in such a way that the decryption or depadding part knows how many bytes and where those bytes were padded. Essentially meaning that the padding has to include the length of it self somehow.  
   
-![Pasted image 20240529115439.png](/assets/Pasted%20image%2020240529115439.png)  
+![Pasted image 20240529115439.png]({{ site.baseurl  }}/assets/Pasted%20image%2020240529115439.png)  
 The challenge uses CBC encryption.  
-![Pasted image 20240529115553.png](/assets/Pasted%20image%2020240529115553.png)  
+![Pasted image 20240529115553.png]({{ site.baseurl  }}/assets/Pasted%20image%2020240529115553.png)  
 Wikipedia says:  
 The standard implementation of CBC decryption in block ciphers is to decrypt all ciphertext blocks, validate the padding, remove the [PKCS7 padding](https://www.wikiwand.com/en/Padding_(cryptography)#PKCS#5_and_PKCS#7 "Padding (cryptography)"), and return the message's plaintext. If the server returns an "invalid padding" error instead of a generic "decryption failed" error, the attacker can use the server as a padding oracle to decrypt (and sometimes encrypt) messages.  
 PKCS7 Padding: one of the below  
@@ -31,7 +31,7 @@ PKCS7 Padding: one of the below
 06 06 06 06 06 06
 etc.
 ```  
-![Pasted image 20240529115850.png](/assets/Pasted%20image%2020240529115850.png)  
+![Pasted image 20240529115850.png]({{ site.baseurl  }}/assets/Pasted%20image%2020240529115850.png)  
   
 We know from the code that the iv is just 16 bytes of 0. The ciphertext is 32 bytes long.  
 Therefore we have 2 blocks of ciphertext:  

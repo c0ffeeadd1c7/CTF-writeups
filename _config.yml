@@ -1,5 +1,8 @@
 title: "My CTF Writeups"
 description: "Solutions, scripts, and notes from cybersecurity competitions."
+markdown: kramdown
+kramdown:
+  input: GFM
 defaults:
   - scope:
       path: ""

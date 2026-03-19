@@ -1,4 +1,5 @@
 ---
+title: "Caesars Salad"
 category: crypto
 description: Message with block of caesar chiper
 points: "100"

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | My CTF Writeups</title>
+  <style>
+    /* Simple styling for a two-column layout */
+    body { display: flex; font-family: sans-serif; margin: 0; }
+    .sidebar { width: 250px; background: #f4f4f4; padding: 20px; height: 100vh; overflow-y: auto; }
+    .content { padding: 40px; max-width: 800px; width: 100%; }
+    .category-title { text-transform: uppercase; margin-top: 20px; font-size: 0.9em; color: #555; }
+    ul { list-style: none; padding-left: 10px; }
+    li { margin-bottom: 8px; }
+    a { text-decoration: none; color: #0366d6; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <!-- AUTOMATIC SIDEBAR NAVIGATION -->
+  <div class="sidebar">
+    <h2>CTF Writeups</h2>
+    <a href="{{ site.baseurl }}/">Home</a>
+    
+    <!-- Group all site pages by your 'category' front matter -->
+    {% assign grouped_pages = site.pages | group_by: "category" %}
+    
+    <!-- Loop through each category group -->
+    {% for group in grouped_pages %}
+      {% if group.name != "" and group.name != nil %}
+        <div class="category-title">{{ group.name }}</div>
+        <ul>
+          <!-- Loop through the writeups inside this category -->
+          {% for item in group.items %}
+            {% if item.title %}
+              <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- YOUR WRITEUP CONTENT -->
+  <div class="content">
+    {% if page.category %}
+      <p><strong>Category:</strong> {{ page.category | capitalize }} | <strong>Points:</strong> {{ page.points }}</p>
+    {% endif %}
+    
+    {{ content }}
+  </div>
+
+</body>
+</html>

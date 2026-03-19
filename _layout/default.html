@@ -26,18 +26,29 @@
     {% assign grouped_pages = site.pages | group_by: "category" %}
     
     <!-- Loop through each category group -->
-    {% for group in grouped_pages %}
-      {% if group.name != "" and group.name != nil %}
-        <div class="category-title">{{ group.name }}</div>
+        <!-- Group all site pages by their physical folder path -->
+    {% assign grouped_by_folder = site.pages | group_by: "dir" %}
+    
+    <!-- Loop through each folder -->
+    {% for folder in grouped_by_folder %}
+      
+      <!-- Skip the root folder and assets folder to keep the menu clean -->
+      {% if folder.name != "/" and folder.name != "/assets/" %}
+        
+        <!-- Clean up the folder path (e.g., turn "/2026/CTF/" into "2026 > CTF") -->
+        {% assign folder_name = folder.name | remove_first: "/" | replace: "/", " > " %}
+        
+        <div class="category-title">{{ folder_name }}</div>
         <ul>
-          <!-- Loop through the writeups inside this category -->
-          {% for item in group.items %}
+          <!-- Loop through the writeups inside this specific folder -->
+          {% for item in folder.items %}
             {% if item.title %}
               <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
       {% endif %}
+      
     {% endfor %}
   </div>
 

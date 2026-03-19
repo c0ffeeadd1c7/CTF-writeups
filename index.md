@@ -5,8 +5,9 @@ title: CTF Portfolio
 
 Welcome to my Capture The Flag (CTF) writeups repository! This repository contains my thought processes, solutions, and custom scripts for various cybersecurity challenges I have participated in.
 
-### Browse by Year
-- [2024 Competitions](./2024/)
+### Browse
+
+Currently I dont have good way of listing the write ups with the folder structure. Working on it...
 
 ---
 

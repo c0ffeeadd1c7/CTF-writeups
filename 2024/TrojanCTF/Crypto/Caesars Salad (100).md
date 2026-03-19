@@ -1,6 +1,6 @@
 ---
-title: "Caesars Salad"
-parent: crypto
+title: Caesars Salad (100)
+category: crypto
 description: Message with block of caesar chiper
 points: "100"
 ---
@@ -41,7 +41,7 @@ Dbytkx{3D_DE_B00D?_C0BBI_DR3_T0U3_LENQ3D_B4X_0ED}
 ```
 
 ## Solution
-As the name suggests the whole message was block of different caesar chipers.
-Used a simple online tool:
-`https://cryptii.com/pipes/caesar-cipher`
-Shifting by *16* gave me the key
+As the name suggests the whole message was block of different caesar chipers.  
+Used a simple online tool:  
+`https://cryptii.com/pipes/caesar-cipher`  
+Shifting by *16* gave me the key  

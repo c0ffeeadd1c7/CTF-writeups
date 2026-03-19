@@ -1,6 +1,6 @@
 ---
-title: Hellman key exhange
-parent: crypto
+title: Hellman key exhange (100+100)
+category: crypto
 description: Hellman key exchange with small primes
 points: "100"
 ---
